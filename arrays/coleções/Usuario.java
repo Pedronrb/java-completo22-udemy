@@ -27,5 +27,10 @@ public class Usuario {
 		return Objects.equals(nome, other.nome);
 	}
 	
+	public String toString() {
+		return "Meu nome e: " + this.nome;
+		
+	}
+	
 	
 }
